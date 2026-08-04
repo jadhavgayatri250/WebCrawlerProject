@@ -101,10 +101,10 @@ public class LoginGUI extends JFrame {
                 messageLabel.setForeground(new Color(0,170,0));
                 messageLabel.setText("Login Successful!");
 
-                Timer timer = new Timer(1000,ev->{
+                Timer timer = new Timer(1000, ev -> {
 
                     dispose();
-                    new CrawlerGUI();
+                    new HomeGUI();
 
                 });
 
